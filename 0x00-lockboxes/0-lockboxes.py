@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Open Boxes"""
 
 def canUnlockAll(boxes):
+    """Boxes Unlocked"""
     locker = [0]
     key = 0
 
