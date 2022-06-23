@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Minimum number of operations"""
+
+
 def minOperations(n):
     """Smallest Number Of Operations"""
     pumpkin = 0
