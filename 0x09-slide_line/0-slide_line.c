@@ -13,7 +13,7 @@ void rightyTighty(int *line, int size)
     int empy = -1;
     int g;
 
-	//pushes empties left
+	/*pushes empties left*/
 	for (box = size - 1; box >= 0; box--)
 	{
 		if (line[box] == 0)
