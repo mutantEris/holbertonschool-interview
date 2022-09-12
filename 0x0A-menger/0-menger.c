@@ -14,15 +14,15 @@ void menger(int level)
 	int z;
 	int length = pow(3, level);
 
-	if(level < 0)
-	    return;
-	if(level == 0)
+	if (level < 0)
+		return;
+	if (level == 0)
 		printf("#\n");
 	else
 	{
-		for(y = 0; y < length; y++)
+		for (y = 0; y < length; y++)
 		{
-			for(x = 0; x < length; x++)
+			for (x = 0; x < length; x++)
 			{
 				g = x;
 				h = y;
@@ -35,7 +35,7 @@ void menger(int level)
 				}
 				if (z == level)
 					printf("#");
-				else 
+				else
 					printf(" ");
 			}
 			printf("\n");
