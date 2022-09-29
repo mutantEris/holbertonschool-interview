@@ -23,4 +23,3 @@ def rain(walls):
         wawaweewa += (min(left, right) - walls[x])
 
     return wawaweewa
-
