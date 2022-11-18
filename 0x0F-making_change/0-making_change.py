@@ -4,8 +4,6 @@
 
 def makeChange(coins, total):
     '''Counts the coins I found in my couch'''
-    if total <= 0:
-        return 0
     count = 0
     coins.sort(reverse=True)
     for coin in coins:
